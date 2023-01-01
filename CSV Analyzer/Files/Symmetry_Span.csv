@@ -1,0 +1,5 @@
+"rt","accuracy","userID","trial_type","trial_index","time_elapsed","internal_node_id","recall","correct_answer","stimuli","set_size"
+"1565","1","abc345","symmetry-judgement-task","2","12493","0.0-1.0-0.0-1.0","","","",""
+"1269","1","","symmetry-judgement-task","5","14846","0.0-1.0-0.0-1.1","","","",""
+"1218","1","","symmetry-judgement-task","8","17147","0.0-1.0-0.0-1.2","","","",""
+"2144","1","","spatial-span-recall","10","19297","0.0-1.0-1.0","4,11,12","13,11,8","3,1,2,3,2,0","3"
