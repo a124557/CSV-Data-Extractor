@@ -57,14 +57,15 @@ int main(int argc, char * argv[]) {
             std::string field;
             std::vector<std::string> fields;
             while(std::getline(line_stream, field, ',')){
-                fields.push_back(field);
+                fields.push_back(field);;
             }
             
             // Extract the specified column and print it
-            if(column_number < fields.size()){
+            if(column_number < fields.size() && fields[column_number].length() > 2){
                 std::cout << fields[column_number] << std::endl;
             }
         }
+        std::cout << "\n";
     }
     
     closedir(dir);
